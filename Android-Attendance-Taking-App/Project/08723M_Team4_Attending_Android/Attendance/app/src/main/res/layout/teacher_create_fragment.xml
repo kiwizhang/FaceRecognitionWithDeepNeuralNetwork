@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFFFFF" >
+
+
+
+        <HorizontalScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#FFFFFF" >
+
+
+
+            <TableLayout
+                android:id="@+id/tableLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Course Number"
+                        android:id="@+id/CourseNumber"
+                        android:textSize="18dp"
+                        android:layout_column="0"
+                        android:padding="15dp"
+                        android:layout_below="@+id/tableLayout1"
+                        android:layout_alignParentStart="true" />
+
+                    <EditText
+                        android:layout_width="87dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/CourseNumberEdit"
+                        android:padding="0dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_column="4" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/tableLayout1"
+                    android:layout_centerHorizontal="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Course Name"
+                        android:id="@+id/CourseName"
+                        android:textSize="18dp"
+                        android:layout_column="0"
+                        android:padding="15dp"
+                        android:layout_below="@+id/tableLayout1"
+                        android:layout_alignParentStart="true" />
+
+                    <EditText
+                        android:layout_width="87dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/CourseNameEdit"
+                        android:padding="0dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_column="4" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/tableLayout1"
+                    android:layout_centerHorizontal="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Description"
+                        android:id="@+id/Description"
+                        android:textSize="18dp"
+                        android:layout_column="0"
+                        android:padding="15dp"
+                        android:layout_below="@+id/tableLayout1"
+                        android:layout_alignParentStart="true" />
+
+                    <EditText
+                        android:layout_width="87dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/DescriptionEdit"
+                        android:padding="0dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_column="4" />
+
+
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/tableLayout1"
+                    android:layout_centerHorizontal="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Start Date"
+                        android:id="@+id/StartDate"
+                        android:textSize="18dp"
+                        android:layout_column="0"
+                        android:padding="15dp"
+                        android:layout_below="@+id/tableLayout1"
+                        android:layout_alignParentStart="true" />
+                    <!--<DatePicker-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:scaleY="0.8"-->
+                    <!--android:scaleX="0.8"-->
+                    <!--android:id="@+id/StartDateEdit"-->
+                    <!--android:layout_column="3" />-->
+
+                    <EditText
+                        android:layout_width="87dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/StartDateEdit"
+                        android:hint="MM-DD-YYYY"
+                        android:textAlignment="center"
+                        android:textSize="10dp"
+                        android:padding="0dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_column="4" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/tableLayout1"
+                    android:layout_centerHorizontal="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="End Date"
+                        android:textSize="18dp"
+                        android:id="@+id/EndDate"
+                        android:layout_column="0"
+                        android:padding="15dp"
+                        android:layout_below="@+id/tableLayout1"
+                        android:layout_alignParentStart="true" />
+
+                    <EditText
+                        android:layout_width="87dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/EndDateEdit"
+                        android:hint="MM-DD-YYYY"
+                        android:textAlignment="center"
+                        android:textSize="10dp"
+
+                        android:padding="0dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_column="4" />
+
+
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/tableLayout1"
+                    android:layout_centerHorizontal="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Start Time"
+                        android:textSize="18dp"
+                        android:id="@+id/StartTime"
+                        android:layout_column="0"
+                        android:padding="15dp"
+                        android:layout_below="@+id/tableLayout1"
+                        android:layout_alignParentStart="true" />
+
+                    <EditText
+                        android:layout_width="87dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/StartTimeEdit"
+                        android:hint="HH:mm"
+                        android:textSize="10dp"
+                        android:textAlignment="center"
+                        android:padding="0dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_column="4" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/tableLayout1"
+                    android:layout_centerHorizontal="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="End Time"
+                        android:id="@+id/EndTime"
+                        android:textSize="18dp"
+                        android:layout_column="0"
+                        android:padding="15dp"
+                        android:layout_below="@+id/tableLayout1"
+                        android:layout_alignParentStart="true" />
+
+                    <EditText
+                        android:layout_width="87dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/EndTimeEdit"
+                        android:hint="HH:mm"
+                        android:textAlignment="center"
+                        android:textSize="10dp"
+                        android:padding="0dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_column="4" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/tableLayout1"
+                    android:layout_centerHorizontal="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Number of Classes"
+                        android:id="@+id/NumCourse"
+                        android:layout_column="0"
+                        android:textSize="18dp"
+                        android:padding="15dp"
+                        android:layout_below="@+id/tableLayout1"
+                        android:layout_alignParentStart="true" />
+
+                    <EditText
+                        android:layout_width="87dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/NumCourseEdit"
+                        android:textAlignment="center"
+                        android:textSize="10dp"
+                        android:padding="0dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_column="4" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/tableLayout1"
+                    android:layout_centerHorizontal="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Beacon Url"
+                        android:id="@+id/BeaconUrl"
+                        android:textSize="18dp"
+                        android:layout_column="0"
+                        android:padding="15dp"
+                        android:layout_below="@+id/tableLayout1"
+                        android:layout_alignParentStart="true" />
+
+                    <EditText
+                        android:layout_width="87dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/BeaconUrlEdit"
+                        android:textAlignment="center"
+                        android:textSize="10dp"
+                        android:padding="0dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_column="4" />
+
+
+                </TableRow>
+                <Button
+                    android:id="@+id/savebutton"
+                    android:textSize="18dp"
+                    android:text="Save"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal" />
+
+            </TableLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+</RelativeLayout>

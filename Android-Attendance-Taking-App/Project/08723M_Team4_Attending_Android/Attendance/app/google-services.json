@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "363537864855",
+    "project_id": "attendance-f1112"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363537864855:android:a3429e4146aaefa8",
+        "android_client_info": {
+          "package_name": "com.example.celia.attendance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363537864855-7ghlkge7gu9s9b6h7v7hh3qntikk4vh0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.celia.attendance",
+            "certificate_hash": "9531ECAB8EEA73733F01BBB8825BA0474CDC869A"
+          }
+        },
+        {
+          "client_id": "363537864855-hust86vncd8akmlgd1qk4o4cou6si1t2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWFzX_0pTNsYKcS4-U9u8zZiYzYZjaXhA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
